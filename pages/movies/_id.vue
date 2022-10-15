@@ -1,8 +1,15 @@
 <template>
-  <div class="">
-    <h1 class="text-3xl font-bold">{{movieInfo.title}}</h1>
-    <p class="w-1/2 mb-10">{{movieInfo.overview}}</p>
-    <pre>{{movieInfo}}</pre>
+  <div>
+    <div>
+      <h1 class="text-3xl font-bold">{{ movieInfo.title }}</h1>
+      <p class="w-1/2 mb-10">{{ movieInfo.overview }}</p>
+      <img
+        class="rounded-3xl"
+        :src="`https://image.tmdb.org/t/p/w500/${movieInfo.poster_path}`"
+        alt=""
+      />
+    </div>
+      <pre>{{ movieInfo }}</pre>
   </div>
 </template>
 
@@ -23,3 +30,8 @@ export default {
   },
 }
 </script>
+
+background-position: right -200px top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/t/p/w1920_and_h800_multi_faces/5hoS3nEkGGXUfmnu39yw1k52JX5.jpg);
