@@ -35,8 +35,3 @@ export default {
   },
 }
 </script>
-
-background-position: right -200px top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(/t/p/w1920_and_h800_multi_faces/5hoS3nEkGGXUfmnu39yw1k52JX5.jpg);
