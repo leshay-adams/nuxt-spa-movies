@@ -3,8 +3,10 @@
 </template>
 
 <script>
+import Movies from './movies/index.vue';
 export default {
     name: "IndexPage",
+    components: { Movies }
 }
 </script>
 
