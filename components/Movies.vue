@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'index',
+  name: 'Movies',
   data() {
     return {
       movies: [],

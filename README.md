@@ -1,6 +1,5 @@
 # Nuxt SPA Movies
 
-## The App 
 Movie Info App with Search functionality. Using themoviedb.org API.
 Built with Nuxt & Tailwind.
 

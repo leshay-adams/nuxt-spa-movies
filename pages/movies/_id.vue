@@ -8,6 +8,11 @@
         :src="`https://image.tmdb.org/t/p/w500/${movieInfo.poster_path}`"
         alt=""
       />
+      <ul>
+        <li v-for="(genre, index) in movieInfo.genres" :key="index"> {{ genre.name }}</li>
+      </ul>
+      <a :href="movieInfo.homepage" target="_blank">Watch Movie</a>
+      <p class="review">{{ movieInfo.vote_average }}</p>
     </div>
       <pre>{{ movieInfo }}</pre>
   </div>
