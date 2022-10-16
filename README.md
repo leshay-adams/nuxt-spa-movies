@@ -3,6 +3,8 @@
 Movie Info App with Search functionality. Using themoviedb.org API.
 Built with Nuxt & Tailwind.
 
+![alt text](http://url/to/img.png)
+
 ## Build Setup
 
 ```bash
