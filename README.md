@@ -3,7 +3,11 @@
 Movie Info App with Search functionality. Using themoviedb.org API.
 Built with Nuxt & Tailwind.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/leshay-adams/nuxt-spa-movies/blob/main/assets/%231.png)
+![alt text](https://github.com/leshay-adams/nuxt-spa-movies/blob/main/assets/%232.png)
+![alt text](https://github.com/leshay-adams/nuxt-spa-movies/blob/main/assets/%233.png)
+![alt text](https://github.com/leshay-adams/nuxt-spa-movies/blob/main/assets/%234.png)
+![alt text](https://github.com/leshay-adams/nuxt-spa-movies/blob/main/assets/%235.png)
 
 ## Build Setup
 
