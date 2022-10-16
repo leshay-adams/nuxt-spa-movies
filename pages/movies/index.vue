@@ -1,5 +1,5 @@
 <template>
-    <div class="p-20">
+    <div class="p-20 text-white">
       <p v-if="$fetchState.pending">Fetching movies...</p>
       <p v-else-if="$fetchState.error">An error occurred :(</p>
       <div v-else>
@@ -8,9 +8,9 @@
         >
           <span
             class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"
-            >Zinc Movies</span
+            >Zinc Movies.</span
           >
-          It's Showtime
+          It's Showtime.
         </h1>
         <div class="mb-20">
           <p class="text-lg font-normal lg:text-xl text-zinc-400 pb-4">
@@ -21,21 +21,8 @@
             <div
               class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"
             >
-              <svg
-                aria-hidden="true"
-                class="w-5 h-5 text-zinc-500 dark:text-zinc-400"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                ></path>
-              </svg>
+            <img 
+                class="w-5 h-5" @click="$fetch" src="~/assets/search-icon.svg" alt="">
             </div>
             <input
               class="block p-4 pl-10 w-1/2 text-sm text-zinc-900 bg-zinc-50 rounded-lg border border-zinc-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-zinc-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -59,7 +46,7 @@
                 alt=""
               />
               <p
-                class="bg-yellow-500 p-4 max-w-fit absolute top-0 right-0 rounded-bl-xl"
+                class="bg-yellow-500 p-4 max-w-fit absolute top-0 right-0 rounded-bl-xl font-semibold"
               >
                 {{ movie.vote_average }}
               </p>
